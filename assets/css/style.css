@@ -7207,6 +7207,24 @@ br {
     box-shadow: inset 0 -30px 0 rgba(240, 130, 1, 0.58);
 }
 
+@media (max-width: 1199px) {
+    .top-card {
+        text-align: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .top-card {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .top-card {
+        text-align: center;
+    }
+}
+
 .maintitle {
     color: #fff;
     text-align: center;
