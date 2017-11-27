@@ -95,6 +95,14 @@
                     <a href="/article.html" class="btn btn-outline-primary btn-sm">Предыдущая статья</a>
                     <a href="/article.html" class="btn btn-outline-primary btn-sm">Следующая статья</a>
                 </div>
+                <comments>
+                    <div class="container" style="width: 80%;">
+                        <div id="vk_comments"></div>
+                        <script type="text/javascript">
+                        VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
+                        </script>
+                    </div>
+                </comments>
             </div>
             <div class="col-lg-3 offset-lg-1">
                 <h4 class="title" style="padding: 1rem 1rem;">Последние статьи</h4>
@@ -116,15 +124,6 @@
             </div>
         </div>
     </div>   
-    
-    <comments>
-        <div class="container" style="width: 70%;">
-            <div id="vk_comments"></div>
-            <script type="text/javascript">
-            VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
-            </script>
-        </div>
-    </comments>
 </main>
     
 <footer class="footer">
