@@ -48,30 +48,84 @@
             </div>
         </div>
 </nav>
-<header class="header d-flex flex-column justify-content-center">
+<header class="header d-flex flex-column justify-content-center" style="height: 200px;">
     <div class="container">
-        <h1 class="display-2"><strong>GERMAN ROCKS</strong></h1>
-            <h2 class="display-5">
-            блог лингвиста
-            </h2>
+        <h1 class="display-4"><strong>Самые эффективные советы для супер-быстрого изучения языка</strong></h1>
     </div>
 </header>
     
 <main class="main">
-    <div class="container">
-        <div class="row">
+    <div class="container" style="padding-bottom: 1rem;">
+        <div class="row"> 
+            <div class="col-lg-8 article">
+                <div class="d-flex justify-content-between">
+                    <h5><small class="text-muted" style="font-weight:500">Статья <a href="#" style="color: darkslateblue;">Паши Лёгкого</a></small> 
+                        <a href="https://vk.com/id427885818"><i class="fa fa-vk" aria-hidden="true" style="color: #507299; font-size: 18px;"></i></a>
+                    </h5>
+                    <h5><small class="text-muted" style="font-weight:500">22.11.2017</small></h5>
+                </div>
+                <p>
+                Изучая иностранный язык, я столкнулся с весьма интересной вещью.<br>
+                Я создал искусственно иноязычную среду: просто часами слушал немецкую речь, смотрел фильмы и ролики на немецком, читал что-то или просто зависал в словарях. Неважно, главное из того, что я постоянно был "в контакте" с немецким языком. За день мне встречалось в среднем под 100 незнакомых слов, я их записывал в отдельную тетрадь, но их было столько много, что я даже к ним не возвращался. Всё знакомство с новыми словами к этому и сводилось: увидел/услышал - записал. Не было никакого "повторил", "зазубрил".</p>
+                
+                <img class="img-fluid" src="assets/i/content-1.jpg" alt="Card image cap">
+                    
+                <p>
+                Но вот сама интересная вещь: каждый раз, встречая совершенно новое слово неважно какой сложности и употребляемости, я встречал ещё раз или в тот же самый день или максимум на третий день после того, как я его встретил впервые.<br></p>
+                
+                <h4>Когда-то давно</h4>
+                
+                <p>
+                А теперь представим, что мы люди с супер-памятью и мгновенно и крепко запоминаем все новые слова, что мы встречаем. Получается, мы можем такими темпами выучить все необходимые нам для лёгкой жизни в другой стране слова всего за одну неделю!<br>
+
+                Было бы здорово, если б всё было так. Из этого следует взять один урок: нужно чаще прислушиваться, вдумываться, обращать внимание на новые слова, ведь большинство их мы просто можем пропускать мимо ушей.<br>
+
+                Никогда нe зубрил слова, как сказал уже, но запоминались они отлично. В чём фишка? А в том, что я их изначально брал из контекста: мне немец написал в чате, услышал в видео, прочитал в книге - этого достаточно, чтобы немного запомнить слово, но оно уже отложится в памяти.<br>
+                    
+                Чтобы запомнить одно слово или выражения "намертво", нужно пройти с ним следующий примерный алгоритм: 
+                - вот мы его встретили в видео (услышали) 
+                - нашли его в словаре (поняли) 
+                - записали его в свой словарик (!) (прочувствовали) 
+                - а как записали, то посмотрели на него (увидели) 
+                - попробовали построить с ним фразу или словосочетание (закрепили) <br>
+
+                Это всё в идеале. Некоторые говорят, что нужно повторить слово и его перевод 20 раз подряд, чтобы его окончательно запомнить. Да, может и так. Но есть такое понятие как "сема" - то есть смысловая единица. У каждого слова нужно в первую очередь запоминать не его перевод, а его смысл. А смысл можно выразить множеством других слов и не только. 
+                    </p>
+                <div class="d-flex justify-content-between">
+                    <a href="/article.html" class="btn btn-outline-primary btn-sm">Предыдущая статья</a>
+                    <a href="/article.html" class="btn btn-outline-primary btn-sm">Следующая статья</a>
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1">
+                <h4 class="title" style="padding: 1rem 1rem;">Последние статьи</h4>
+
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                    <a href="#" class="list-group-item list-group-item-action">Vestibulum at eros</a>
+                </div>
+                
+                <h4 class="title" style="padding: 1rem 1rem;">Подпишись</h4>
+                
+                <div id="vk_subscribe" style="padding: 1rem 1rem;"></div>
+                <script type="text/javascript">
+                VK.Widgets.Subscribe("vk_subscribe", {}, -152822722);
+                </script>
+            </div>
         </div>
     </div>   
-</main>
     
-<comments>
-    <div class="container">
-        <div id="vk_comments"></div>
-        <script type="text/javascript">
-        VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
-        </script>
-    </div>
-</comments>
+    <comments>
+        <div class="container" style="width: 70%;">
+            <div id="vk_comments"></div>
+            <script type="text/javascript">
+            VK.Widgets.Comments("vk_comments", {limit: 5, attach: "*"});
+            </script>
+        </div>
+    </comments>
+</main>
     
 <footer class="footer">
     <div class="container">

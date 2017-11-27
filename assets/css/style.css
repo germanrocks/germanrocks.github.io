@@ -7140,11 +7140,19 @@ a.list-group-item-dark.active,
     .header .display-2 {
         font-size: 3.5rem;
     }
+
+    .header .display-4 {
+        font-size: 3rem;
+    }
 }
 
 @media (max-width: 991px) {
     .header .display-2 {
         font-size: 3rem;
+    }
+
+    .header .display-4 {
+        font-size: 2.5rem;
     }
 }
 
@@ -7159,6 +7167,10 @@ a.list-group-item-dark.active,
 
     .header .display-5 {
         font-size: 1.5rem;
+    }
+
+    .header .display-4 {
+        font-size: 2rem;
     }
 }
 
@@ -7243,6 +7255,27 @@ br {
 
 .btn:hover {
     box-shadow: 0 3px 15px 5px rgba(0, 0, 0, 0.22), 0 2px 6px 0 rgba(0, 0, 0, 0.24);
+}
+
+.article {
+    color: black;
+    border-right: 1px solid rgba(63, 45, 78, 0.28);
+}
+
+.story .img {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.list-group-item {
+    border-left: 6px solid #563e6a;
+    transition: box-shadow ease-in-out .3s;
+    overflow: hidden;
+}
+
+.list-group-item:hover {
+    box-shadow: inset 250px 0 0 #c8bad4;
 }
 
 .maintitle {
