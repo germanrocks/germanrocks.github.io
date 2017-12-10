@@ -15231,3 +15231,38 @@ var cap = new CircleAudioPlayer({
   borderWidth: 2
 });
 cap.appendTo(aud4);
+
+var cap = new CircleAudioPlayer({
+	audio: 'https://www.duden.de/_media_/audio/ID4109084_182648446.mp3',
+  size: 45,
+  borderWidth: 2
+});
+cap.appendTo(aud5);
+
+var cap = new CircleAudioPlayer({
+	audio: 'https://www.duden.de/_media_/audio/ID4116426_39800296.mp3',
+  size: 45,
+  borderWidth: 2
+});
+cap.appendTo(aud6);
+
+var cap = new CircleAudioPlayer({
+	audio: 'https://www.duden.de/_media_/audio/ID4112143_287648183.mp3',
+  size: 45,
+  borderWidth: 2
+});
+cap.appendTo(aud7);
+
+var cap = new CircleAudioPlayer({
+	audio: 'https://www.duden.de/_media_/audio/ID4112735_317481101.mp3',
+  size: 45,
+  borderWidth: 2
+});
+cap.appendTo(aud8);
+
+var cap = new CircleAudioPlayer({
+	audio: 'https://www.duden.de/_media_/audio/ID4111746_236064689.mp3',
+  size: 45,
+  borderWidth: 2
+});
+cap.appendTo(aud9);
