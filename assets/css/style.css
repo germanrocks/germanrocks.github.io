@@ -7280,6 +7280,16 @@ br {
     box-shadow: inset 250px 0 0 #c8bad4;
 }
 
+.circle-audio-player {
+    display: block;
+    margin: 2%;
+    cursor: pointer;
+}
+
+.audio {
+    padding: 2px 20px;
+}
+
 .maintitle {
     color: #fff;
     text-align: center;
@@ -7359,7 +7369,7 @@ br {
 
 .social {
     margin: 0 auto;
-    width: 500px;
+    width: 300px;
     padding-bottom: 30px;
 }
 
