@@ -7290,6 +7290,11 @@ br {
     padding: 2px 20px;
 }
 
+.ex {
+    background: linear-gradient(to left, #dbcfe514, #dbcfe5);
+    border-left: 6px solid #f08201;
+}
+
 .maintitle {
     color: #fff;
     text-align: center;
